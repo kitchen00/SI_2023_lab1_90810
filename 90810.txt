@@ -1,0 +1,44 @@
+1. git init (inicijaliziran git vo direktoriumot)
+2. git remote add origin https://github.com/kitchen00/SI_2023_lab1_90810.git
+3. touch README.md (nov fajl)
+4. git add . 
+5. git commit -m "Initial commit"
+6. touch SILab1.java
+7. git add SILab1.java
+8. git commit -m "Add java class"
+9. git push -u origin master
+10. git branch bug1 (kreiraj nov branch)
+11. git branch bug2
+12. git branch bug3
+13. git checkout bug1
+14. git add SILab1.java (popraven bug)
+15. git commit -m "Fix wrong loop for reading"
+16. git checkout bug2
+17. git add SILab1.java (popraven bug)
+18. git commit -m "Fix wrong condition in filterOddNumbers"
+19. git checkout bug3
+20. git add SILab1.java (popraven bug)
+21. git commit -m "Fix method sumEvenNumbers"
+22. git push -u origin bug3
+23. git checkout bug2
+24. git push -u origin bug2
+25. git checkout bug1
+26. git push -u origin bug1
+27. git checkout master
+28. git merge bug1
+29. git push -u origin master 
+30. git merge bug2 (Konflikt wq = Auto-merging SILab1.java Merge made by the 'ort' strategy.)
+31. git push -u origin master
+32. git checkout bug3
+33. git rebase master
+34. git checkout master
+35. git merge bug3
+36. git push -u origin master
+37. git checkout bug3
+38. git push -u origin bug3 (Imase rejected)
+39. git push -u origin bug3 --force
+40. git checkout master
+41. git log (za vo datotekata logs)
+42. git add . 
+43. git commit -m "Final commit"
+

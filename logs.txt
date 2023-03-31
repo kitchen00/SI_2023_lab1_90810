@@ -1,0 +1,38 @@
+krist@LAPTOP-KFFOJ77C MINGW64 ~/OneDrive/Desktop/Fakultet/Leten 2023/SI/Laborotoriski vezbi/SI_2023_lab1_90810 (master)
+$ git log
+commit fa1a7f68ebb5516f943207d571f0973250a502a0 (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: Kristijan <kristijan.ristovski909@gmail.com>
+Date:   Fri Mar 31 22:10:15 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit f985d3a89b0a27266483cb824fb523a2fa6e41eb
+Merge: 4b47c79 cbcf8a5
+Author: Kristijan <kristijan.ristovski909@gmail.com>
+Date:   Fri Mar 31 22:21:06 2023 +0200
+
+    Merge branch 'bug2'
+
+commit cbcf8a5b8cae9ef63be610163a13331fd6f74fba (origin/bug2, bug2)
+Author: Kristijan <kristijan.ristovski909@gmail.com>
+Date:   Fri Mar 31 22:03:31 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 4b47c79bb7b4609231bd01e111f86899876d5d62 (origin/bug1, bug1)
+Author: Kristijan <kristijan.ristovski909@gmail.com>
+Date:   Fri Mar 31 21:58:00 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 75369c024b7399981e16b42fa1b9a446cf4d4fe8
+Author: Kristijan <kristijan.ristovski909@gmail.com>
+Date:   Fri Mar 31 21:25:19 2023 +0200
+
+    Add java class
+
+commit 27cdc2deabac32fab998911f2039ae89f2a333c7
+Author: Kristijan <kristijan.ristovski909@gmail.com>
+Date:   Fri Mar 31 21:15:25 2023 +0200
+
+    Initial commit
